@@ -1,0 +1,49 @@
+{
+  "key.category.bettermaceswap.general": "Better Mace Swap",
+
+  "key.bettermaceswap.breach_swap_toggle": "Toggle Attribute Swap",
+  "key.bettermaceswap.stun_slam_toggle": "Toggle Stun Slam",
+  "key.bettermaceswap.mace_mode_cycle": "Cycle Mace Mode",
+  "key.bettermaceswap.pearl_catch_toggle": "Toggle Pearl Catch",
+  "key.bettermaceswap.aim_assist_toggle": "Toggle Aim Assist",
+
+  "text.autoconfig.bettermaceswap.title": "Better Mace Swap Config",
+
+  "text.autoconfig.bettermaceswap.option.autoBreachSwapEnabled": "Auto Attribute Swap",
+  "text.autoconfig.bettermaceswap.option.autoBreachSwapEnabled.@Tooltip": "Automatically swap to Mace when hitting with a Sword or Axe while falling.",
+
+  "text.autoconfig.bettermaceswap.option.breachSwapBackTicks": "Swap Delay (Ticks)",
+  "text.autoconfig.bettermaceswap.option.breachSwapBackTicks.@Tooltip": "Ticks to wait before swapping back after an attribute hit.",
+
+  "text.autoconfig.bettermaceswap.option.autoStunSlamEnabled": "Auto Stun Slam",
+  "text.autoconfig.bettermaceswap.option.autoStunSlamEnabled.@Tooltip": "Automatically Axe-stun then Mace-slam after a Sword hit.",
+
+  "text.autoconfig.bettermaceswap.option.maceMode": "Mace Mode",
+  "text.autoconfig.bettermaceswap.option.maceMode.@Tooltip": "Select which enchantment type to prioritize when swapping.",
+  "text.autoconfig.bettermaceswap.option.maceMode.DENSITY": "Density",
+  "text.autoconfig.bettermaceswap.option.maceMode.BREACH": "Breach",
+
+  "text.autoconfig.bettermaceswap.option.attackPlayers": "Target Players",
+  "text.autoconfig.bettermaceswap.option.attackPlayers.@Tooltip": "Enable combo logic against players.",
+
+  "text.autoconfig.bettermaceswap.option.attackMobs": "Target Mobs",
+  "text.autoconfig.bettermaceswap.option.attackMobs.@Tooltip": "Enable combo logic against hostile mobs.",
+
+  "text.autoconfig.bettermaceswap.option.attackAnimals": "Target Animals",
+  "text.autoconfig.bettermaceswap.option.attackAnimals.@Tooltip": "Enable combo logic against passive animals.",
+
+  "text.autoconfig.bettermaceswap.option.pearlCatchEnabled": "Pearl Catch",
+  "text.autoconfig.bettermaceswap.option.pearlCatchEnabled.@Tooltip": "Automatically throw a Wind Charge after throwing an Ender Pearl.",
+
+  "text.autoconfig.bettermaceswap.option.pearlCatchDelayTicks": "Pearl Catch Delay (Ticks)",
+  "text.autoconfig.bettermaceswap.option.pearlCatchDelayTicks.@Tooltip": "Ticks to wait after pearl throw before firing Wind Charge.",
+
+  "text.autoconfig.bettermaceswap.option.aimAssistEnabled": "Aim Assist",
+  "text.autoconfig.bettermaceswap.option.aimAssistEnabled.@Tooltip": "Slowly tracks nearest target while falling and holding attack.",
+
+  "text.autoconfig.bettermaceswap.option.aimAssistRange": "Aim Assist Range (Blocks)",
+  "text.autoconfig.bettermaceswap.option.aimAssistRange.@Tooltip": "Range to search for targets (1-20 blocks).",
+
+  "text.autoconfig.bettermaceswap.option.aimAssistSpeedRaw": "Aim Assist Speed",
+  "text.autoconfig.bettermaceswap.option.aimAssistSpeedRaw.@Tooltip": "How fast the camera moves toward the target (1=slow, 10=fast)."
+}
