@@ -1,0 +1,35 @@
+{
+    "schemaVersion": 1,
+    "id": "bettermaceswap",
+    "version": "${version}",
+    "name": "BetterMaceSwap",
+    "description": "Mace PvP automation: auto breach swap and stun slam axe+mace combo.",
+    "authors": ["RITESH_911"],
+    "contact": {
+        "sources": "https://github.com/thatzritesh911/BetterMaceSwap/tree/26.1",
+        "homepage": "https://modrinth.com/mod/bettermaceswap"
+    },
+    "license": "MIT",
+    "icon": "assets/bettermaceswap/icon.png",
+    "environment": "client",
+    "entrypoints": {
+        "main": ["com.ritesh.Bettermaceswap"],
+        "client": ["com.ritesh.BettermaceswapClient"],
+        "modmenu": ["com.ritesh.ModMenuIntegration"]
+    },
+    "mixins": [
+        "bettermaceswap.mixins.json",
+        {
+            "config": "bettermaceswap.client.mixins.json",
+            "environment": "client"
+        }
+    ],
+    "depends": {
+        "fabricloader": ">=0.18.4",
+        "minecraft": "~26.1.2",
+        "java": ">=25",
+        "fabric-api": "*",
+        "cloth-config2": "*",
+        "modmenu": "*"
+    }
+}
